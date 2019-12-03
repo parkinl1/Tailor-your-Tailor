@@ -3,7 +3,7 @@ function getNumberFromInput(id) {
   return parseInt(input.value);
 };
 function calculate() {
-var message = 'Thanks for your measurements. The quote for your garmentJS Calculator is £' + getNumberFromInput("waist-size") * (getNumberFromInput("height") * (getNumberFromInput("chest")));
+var message = 'Thanks for your measurements. The quote for your garment is £' + getNumberFromInput("waist-size") * (getNumberFromInput("height") * (getNumberFromInput("chest")));
 // alert('Thanks for your measurements. The quote for your garments is £' + getNumberFromInput("waist-size") * (getNumberFromInput("height") * (getNumberFromInput("chest"))));
 //console.log(getNumberFromInput("height"));
 //console.log(getNumberFromInput("chest"));

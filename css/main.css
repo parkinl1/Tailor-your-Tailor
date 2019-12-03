@@ -15,7 +15,7 @@ body {
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-size: 14px;
    color: black;
-   background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?cs=srgb&dl=art-black-and-white-counter-2341290.jpg&fm=jpg)(879kb);
+   margin-bottom: 80px;
 }
 .flexContainerA {
    display: flex;
@@ -23,8 +23,9 @@ body {
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-size: 14px;
    color: black;
-   margin: 10px;
+   margin: 10px 2px 2px 2px 2px;
    padding: 10px;
+   background-color: white;
 }
 .flexItem1 {
         margin: 2px 2px 2px 2px;
@@ -41,25 +42,26 @@ ul{
 }
 .flexContainerB{
    display: flex;
+   flex-direction: row;
    justify-content: center;
    align-items: center;
 }
 h1{
    font-family:  'Pinyon Script', cursive;
-   font-size: 60px;
+   font-size: 80px;
 }
 .flexContainerC{
    display: flex;
    justify-content: space-around;
-   align-items: center;
    padding: 80px;
 }
 .flexItem3{
    display: flex;
-   justify-content: center;
-   align-items: center;
+   flex-direction: column;
    padding: 80px;
    font-size: 20px;
+   font-weight: bold;
+   text-align-last: center;
 }
 .flexContainerD{
    display: flex;
@@ -67,6 +69,9 @@ h1{
    justify-content: center;
    align-items: center;
    background-color: #FFE9EC;
+   position: absolute;
+   width: 100%;
+   bottom: 0;
 }
 footer{
    display: flex;
@@ -94,11 +99,15 @@ h2 {
 }
 .flexItem{
   padding: 0px;
-  margin: 1px 1px 1px 50px;
+  margin: 1px 1px 10px 150px;
 }
-
 .flex-sub-container {
    display: inline-block;
    vertical-align: top;
-   width: 350px;
+   width: 550px;
+}
+.textInput2 {
+   width:500px;
+   height:200px;
+   margin-left:5px;
 }

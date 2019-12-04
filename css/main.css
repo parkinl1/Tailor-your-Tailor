@@ -79,16 +79,23 @@ h1{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: #FFE9EC;
+
    position: absolute;
    width: 100%;
-   /*bottom: 0;*/
+   bottom: 0;
 }
 footer{
    display: flex;
    flex-direction: column;
    justify-content: space-around;
    align-items: center;
+   position: fixed;
+   bottom:0;
+   left:0;
+   background-color: #FFE9EC;
+   padding: 5px;
+   width: 100%;
+
 }
 .flexItem4{
    justify-content: center;
@@ -109,7 +116,7 @@ h2 {
    flex-direction: row;
 }
 .flexItem{
-  padding: 0px;
+  padding: 40px;
   margin: 1px 1px 10px 150px;
 }
 .flex-sub-container {
@@ -145,4 +152,6 @@ h2 {
      font-weight: bold;
      text-align-last: center;
 }
+
+
 

@@ -151,7 +151,14 @@ h2 {
      font-size: 20px;
      font-weight: bold;
      text-align-last: center;
+
 }
 
+.storiesFooter1 {
+   justify-content: center;
+}
 
+.storiesFooter2 {
+   justify-content: center;
+}
 

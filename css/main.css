@@ -116,13 +116,13 @@ h2 {
    flex-direction: row;
 }
 .flexItem{
-  padding: 40px;
+  padding:0px;
   margin: 1px 1px 10px 150px;
 }
 .flex-sub-container {
    display: inline-block;
    vertical-align: top;
-   width: 550px;
+   width: 650px;
 }
 .textInput2 {
    width:500px;
@@ -154,11 +154,4 @@ h2 {
 
 }
 
-.storiesFooter1 {
-   justify-content: center;
-}
-
-.storiesFooter2 {
-   justify-content: center;
-}
 

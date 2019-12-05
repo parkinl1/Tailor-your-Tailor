@@ -114,6 +114,8 @@ h2 {
 .flexContainerE{
    display: flex;
    flex-direction: row;
+   position: relative;
+   overflow: scroll;
 }
 .flexItem{
   padding:2px;

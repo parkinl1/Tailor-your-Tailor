@@ -115,7 +115,7 @@ h2 {
    display: flex;
    flex-direction: row;
    position: relative;
-   overflow: scroll;
+
 }
 .flexItem{
   padding:2px;
@@ -126,7 +126,7 @@ h2 {
    vertical-align: top;
    width: 550px;
    position: relative;
-   overflow: scroll;
+
 
 }
 .textInput2 {

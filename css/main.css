@@ -116,8 +116,8 @@ h2 {
    flex-direction: row;
 }
 .flexItem{
-  padding:40px;
-  margin: 1px 1px 10px 150px;
+  padding:10px;
+  margin: 1px 150px 10px 150px;
 }
 .flex-sub-container {
    display: inline-block;
